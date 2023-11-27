@@ -114,8 +114,7 @@ function App() {
     </ListGroup.Item>
   ));
 
-  let viewItem = tableView ? <TableView books={booksToDisplay} > </TableView> :
-    <CardsView books={booksToDisplay} > </CardsView>;
+  let viewItem = tableView ? <TableView > </TableView> : <CardsView> </CardsView>;
 
   return (
     <div className="App">
